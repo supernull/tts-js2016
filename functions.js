@@ -64,7 +64,6 @@ function playGame(player1,player2,playUntil) {
     } else {
       var gameWinner = player2.name;
     }
-
   return gameWinner + " wins the whole game!"
 }
 
