@@ -20,6 +20,7 @@ var profile = {
   avatar: "",
 };
 
+//check the object we start with
 console.log(profile);
 
 function getProfileUpdate() {
@@ -35,4 +36,5 @@ function updateProfile(newProfile) {
 
 updateProfile(profile);
 
+//check tthat the object's been modified
 console.log(profile);
