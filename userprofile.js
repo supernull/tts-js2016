@@ -36,5 +36,5 @@ function updateProfile(newProfile) {
 
 updateProfile(profile);
 
-//check tthat the object's been modified
+//check that the object's been modified
 console.log(profile);
