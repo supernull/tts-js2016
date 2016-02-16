@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Todo App</title>
+<link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+<style>
+
+body { margin: 5%; font: 15px 'Architects Daughter', 'Helvetica','Arial',sans-serif; background: beige}
+
+input { padding: 10px; }
+a.button { display: inline-block; padding: 10px; text-align:center; background-color: rgba(100,100,0,0.3);  }
+
+ul { margin: 5% 0 0 0; padding: 0 }
+
+
+ul li { margin: 0; display: block; width: 25em; padding: 5px; border: 1px solid cornflowerblue;
+border-width: 0 0 1px 0; font-size: 20px; }
+
+.strike { text-decoration: line-through}
+
+</style>
+  </head>
+  <body>
+
+<h1>Todo</h1>
+<div class="newItemBox">
+<input type="text" id="newItem" placeholder="Put your new item here..." />
+
+<a id="addNewItem" class="button">Add</a>
+</div>
+
+
+<ul id="list">
+
+  <li>First item... </li>
+
+</ul>
+
+  <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
